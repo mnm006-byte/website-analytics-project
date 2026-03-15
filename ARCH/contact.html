@@ -1,0 +1,81 @@
+<!doctype html>
+<html >
+<head>
+<title>Contact — ARCH</title>
+<link rel="stylesheet" href="css.css" />
+</head>
+<body>
+
+<header class="site-header">
+<div class="container header-inner">
+<a class="logo" href="html.html">ARCH<span
+class="logo-dot">.</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="html.html">Home</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main>
+<section class="section contact-hero">
+<div class="container">
+<h1>Contact</h1>
+<p>Choose an option below to either book a consultation or send a
+quick query.</p>
+<div class="contact-actions">
+<button id="btn-book" class="btn">Book Me</button>
+<button id="btn-touch" class="btn outline">Get in Touch</button>
+</div>
+<div id="form-book" class="contact-form-panel" aria-hidden="true">
+<h2>Book a Consultation</h2>
+<form id="booking-form" action="#" method="post">
+<label>Full name
+<input type="text" name="name" required />
+</label>
+<label>Email
+<input type="email" name="email" required />
+</label>
+<label>Contact number
+<input type="tel" name="phone" pattern="[0-9]{10}" />
+</label>
+<label>Project date
+
+<input type="date" name="date" />
+</label>
+<label>Short brief
+<textarea name="brief" rows="4"></textarea>
+</label>
+<button class="btn" type="submit">Request Booking</button>
+</form>
+</div>
+<div id="form-touch" class="contact-form-panel" aria-hidden="true">
+<h2>Get in Touch</h2>
+<form id="touch-form" action="#" method="post">
+<label>Name
+<input type="text" name="name" required />
+</label>
+<label>Email
+<input type="email" name="email" required />
+</label>
+<label>Contact number
+<input type="tel" name="phone" pattern="[0-9]{10}" />
+</label>
+<label>Your query
+<textarea name="message" rows="4"></textarea>
+</label>
+<button class="btn" type="submit">Send Message</button>
+</form>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+
+<div class="container">
+<p><a href="html.html">Back to Home</a></p>
+</div>
+</footer>
+<script src="js.js" defer></script>
+</body>
+</html>
